@@ -4,3 +4,9 @@ git add folder\file.txt
 git reset ===> this command used for undo git add
 git commit -m "comment"
 git push -u origin master
+
+//--- How to switch branch ---
+
+1) git branch another_branch
+2) git checkout another_branch
+3) git pull origin another_branch
