@@ -10,3 +10,11 @@ git push -u origin master
 1) git branch another_branch
 2) git checkout another_branch
 3) git pull origin another_branch
+
+//--- How to reset ----
+1) $ git reset --hard 761fd46
+  -- 761fd46 => it's commit point , that is target to change
+  
+2) $ git push -f origin file2
+ -- (-f is command foroce push don't care enything)
+ 
