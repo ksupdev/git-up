@@ -17,4 +17,8 @@ git push -u origin master
   
 2) $ git push -f origin file2
  -- (-f is command foroce push don't care enything)
+
+
+// --- clear profile 
+3) git config --system --unset credential.helper
  
